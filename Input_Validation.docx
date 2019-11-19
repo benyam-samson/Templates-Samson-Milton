@@ -1,0 +1,10 @@
+Benyam Samson and Richardson Milton, COSC 1437-58001, Teacher: Dr. Tyson McMillan
+
+The main difference between the normal and extended input validation is that the normal file only has the template class getValidatedInput(). The extended file adds a try catch block for each data type and outputs the error type if necessary. It is possible to eliminate the need for parameters by creating a string reference within the function instead of as a parameter. However, the function cannot be void because a value needs to be returned to store into the original variable. The simplest way to improve the current Input_Validation_Extended.h, as mentioned before, is to move the parameter into the function in order to simplify the function call.
+
+
+
+
+Resources: 
+https://repl.it/@TysonMcMillan/McMillaniteInputValDrT
+https://www.hackerearth.com/practice/notes/validating-user-input-in-c/
