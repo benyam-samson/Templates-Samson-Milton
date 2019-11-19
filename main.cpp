@@ -1,3 +1,8 @@
+//Benyam Samson and Richardson Milton, COSC 1437-58001, November 19, 2019
+//Teacher: Dr. Tyson McMillan
+//School: Tarrant County College Trinity River Campus
+//Purpose of the Assignment: A program that uses function templates to perform basic operations with various data types.
+//Skills Learned: Calling header file main functions
 #include <iostream>
 #include <string>
 #include "Add_Function_Template.h"
