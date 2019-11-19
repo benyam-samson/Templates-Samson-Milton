@@ -2,6 +2,8 @@
 #include <string>
 #include "Add_Function_Template.h"
 #include "Min_Function_Template.h"
+#include "Multiply_Function_Template.h"
+#include "Swap_Function_Template.h"
 using namespace std;
 
 template <class T>
@@ -25,6 +27,10 @@ int main() {
   add();
   cout << "\nMinimum Function" << endl;
   minimum();
+  cout << "\nMultiply Function" << endl; 
+  maximum();
+  cout << "\nSwap Function" << endl;
+  swap();
 
   return 0;
 }
