@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "Add_Function_Template.h"
+#include "Min_Function_Template.h"
 using namespace std;
 
 template <class T>
@@ -19,7 +20,11 @@ int main() {
   cout << maximum(s1, s2) << endl; 
   bool b1 = true, b2 = false;
   cout << maximum(b1, b2) << endl;
-cout << "\n" << endl; 
+
+  cout << "\nAdd Function" << endl; 
   add();
+  cout << "\nMinimum Function" << endl;
+  minimum();
+
   return 0;
 }
